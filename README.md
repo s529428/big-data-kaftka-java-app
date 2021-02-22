@@ -1,4 +1,4 @@
-# big-data-kaftka-java-app
+# big-data-kafka-java-app
 
 ## Team-Lead: Caroline Finnerty
 [https://github.com/s529428](https://github.com/s529428)
