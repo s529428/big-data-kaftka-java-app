@@ -1,4 +1,4 @@
-package edu.nwmissouri.bigdatakaftagroup;
+package edu.nwmissouri.bigdatasec2group2;
 
 import static org.junit.Assert.assertTrue;
 
