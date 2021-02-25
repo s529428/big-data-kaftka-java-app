@@ -1,0 +1,12 @@
+com\spnotes\kafka\simple\Consumer.class
+com\spnotes\kafka\partition\Consumer$ConsumerThread.class
+com\spnotes\kafka\partition\Consumer$ConsumerThread$1.class
+com\spnotes\kafka\simple\ProducerSentence.class
+com\spnotes\kafka\partition\Consumer.class
+com\spnotes\kafka\partition\CountryPartitioner.class
+com\spnotes\kafka\simple\ProducerHello.class
+com\spnotes\kafka\partition\Producer.class
+com\spnotes\kafka\simple\Producer.class
+com\spnotes\kafka\simple\ProducerSentenceRandom.class
+com\spnotes\kafka\partition\Producer$1.class
+com\spnotes\kafka\simple\Consumer$ConsumerThread.class
