@@ -49,6 +49,7 @@ Open a new PowerShell as Admin in the root project folder. Make sure to use the 
 ```PowerShell
 java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.ProducerByCaroline test
 
+java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.ProducerByLindsay test
 
 ```
 
