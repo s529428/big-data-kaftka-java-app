@@ -14,31 +14,31 @@
 ## Process to Run:
 
 ### Start Zookeeper Service
-```Bash
+```PowerShell
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 ```
 
 ### Start Kafka Service
-```Bash
+```PowerShell
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
 
 ### Create the Kafka Topic
-```Bash
+```PowerShell
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic TOPIC-NAME-HERE
 ```
 
 ### Compile and Build Fat Jar File
 
 Do this in the root project folder. We compile using Maven to create an executable jar file. If you want to find the artifacts they will be in the 'target' folder generated.
-```Bash
+```PowerShell
 mvn clean compile assembly:single
 ```
 
 ### Start Consumer
 
 Run this command in the project root folder. Make sure to include a topic and groupID, the command below has the topic test and the groupID of group1
-```Bash
+```PowerShell
 java -cp target/big-data-kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simpleConsumer test group1
 ```
 
@@ -46,7 +46,7 @@ java -cp target/big-data-kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar e
 
 Open a new PowerShell as Admin in the root project folder. Make sure to use the same topic as the command above!!!
 
-```Bash
+```PowerShell
 
 ```
 
