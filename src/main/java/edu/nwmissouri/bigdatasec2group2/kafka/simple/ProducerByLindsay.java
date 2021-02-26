@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  * Created by sunilpatil on 12/28/15. Modified by Denise Case on 10/29/2019.
  */
-public class ProducerSentence {
+public class ProducerByLindsay {
   private static Scanner in;
 
   public static void main(String[] argv) throws Exception {
@@ -41,14 +41,12 @@ public class ProducerSentence {
     String input = in.nextLine();
 
     for (int i = 1; i <= 5; i++) {
-        //getting a random number
-      int randNum = rand.nextInt(10); 
     //sending code to user
-      String code = randomMorseCode(randNum);
+      String code = randomMorseCode(i);
       ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName, message);
       producer.send(rec);
       //sending its meaning
-      String message = randomMorseCode(randNum);
+      String message = randomMorseCode(i);
       ProducerRecord<String, String> rec2 = new ProducerRecord<String, String>(topicName, message);
       producer.send(rec2);
     }
