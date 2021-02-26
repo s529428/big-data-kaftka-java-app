@@ -1,5 +1,8 @@
 # kafka-api
 
+## Video Demo
+[https://youtu.be/1LCYECNm7oQ](https://youtu.be/1LCYECNm7oQ)
+
 Example Kafka Producer and Consumer apps.
 
 - Article: <https://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html>
@@ -48,16 +51,8 @@ java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kaf
 Open a new PowerShell as Administrator in the root project folder, start the Producer app using topic test:
 
 ```PowerShell
-java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kafka.simple.Producer test
-java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kafka.simple.ProducerHello test
-java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kafka.simple.ProducerSentence test
-java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kafka.simple.ProducerSentenceRandom test
+java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar com.spnotes.kafka.simple.Producer test <Millisecond Delay (0-1000)>
 ```
-
-## Test Communications
-
-1. Type some messages for the Producer.
-1. Verify the messages are output by the Consumer.
 
 ## See also
 
