@@ -4,7 +4,7 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-import java.sql.SQLIntegrityConstraintViolationException;
+//import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.Properties;
 import java.util.Random;
 import java.util.Scanner;
@@ -15,7 +15,6 @@ import java.util.Scanner;
 
  public class ProducerByCaroline {
     private static Scanner in;
-
     public static void main(String[] args) {
         if(args.length != 1){
             System.err.println("Please specify the name of the topic");
