@@ -1,4 +1,4 @@
-package edu.nwmissouri.bigdatasec2group2;
+edu.nwmissouri.bigdatasec2group2.kafka.simple;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
