@@ -7,7 +7,7 @@
 - Soumya: 
 - Spyridon: 
 - Thomas:
-- Michael:
+- Michael: [Stress Testing Kafka](https://github.com/s529428/big-data-kaftka-java-app/tree/main/mtburnes)
 - Lindsay:
 
 <table>
