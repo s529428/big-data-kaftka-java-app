@@ -43,7 +43,7 @@ public class ProducerByLindsay {
     for (int i = 1; i <= 5; i++) {
     //sending code to user
       String code = randomMorseCode(i);
-      ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName, message);
+      ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName, code);
       producer.send(rec);
       //sending its meaning
       String message = randomMorseCode(i);
