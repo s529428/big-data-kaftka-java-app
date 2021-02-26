@@ -39,7 +39,7 @@ mvn clean compile assembly:single
 
 Run this command in the project root folder. Make sure to include a topic and groupID, the command below has the topic test and the groupID of group1
 ```PowerShell
-java -cp target/big-data-kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simpleConsumer test group1
+java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.Consumer test group1
 ```
 
 ### Start Producer
@@ -47,6 +47,8 @@ java -cp target/big-data-kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar e
 Open a new PowerShell as Admin in the root project folder. Make sure to use the same topic as the command above!!!
 
 ```PowerShell
+java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.ProducerByCaroline test group1
+
 
 ```
 
