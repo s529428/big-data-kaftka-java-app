@@ -47,7 +47,7 @@ java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar 
 Open a new PowerShell as Admin in the root project folder. Make sure to use the same topic as the command above!!!
 
 ```PowerShell
-java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.ProducerByCaroline test group1
+java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.ProducerByCaroline test
 
 
 ```
