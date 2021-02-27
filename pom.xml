@@ -97,6 +97,7 @@
               <manifest>
                 <mainClass>edu.nwmissouri.kafka.simple.ProducerByCaroline</mainClass>
                 <mainClass>edu.nwmissouri.kafka.simple.ProducerByLindsay</mainClass>
+                <mainClass>edu.nwmissouri.kafka.simple.ProducerByThomas</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>
