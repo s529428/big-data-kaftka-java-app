@@ -51,6 +51,7 @@ java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar 
 
 java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.ProducerByLindsay test
 
+java -cp target/big-data-kaftka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdatasec2group2.kafka.simple.ProducerByThomas test
 ```
 
 
