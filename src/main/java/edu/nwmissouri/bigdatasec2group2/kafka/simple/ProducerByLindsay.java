@@ -46,7 +46,7 @@ public class ProducerByLindsay {
       ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName, code);
       producer.send(rec);
       //sending its meaning
-      String message = randomMorseCode(i);
+      String message = assocatiedMessage(i);
       ProducerRecord<String, String> rec2 = new ProducerRecord<String, String>(topicName, message);
       producer.send(rec2);
     }
